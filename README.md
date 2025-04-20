@@ -1,10 +1,9 @@
 # 🐳 Exploring Docker Commands
 A hands-on repository documenting my journey learning Docker — from container basics to building and orchestrating real-world applications.
 
-Here’s a cleanly formatted and GitHub-friendly version:
+![image](https://github.com/user-attachments/assets/59c65354-b544-4189-9325-d636f2e29db1)
 
-
-Understanding Docker Concepts
+# Understanding Docker Concepts
 
 1. **Container:** A lightweight, standalone, and executable package that includes everything needed to run a piece of software.
 
