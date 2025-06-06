@@ -1,18 +1,23 @@
-# 🐳 Exploring Docker Commands
+# 🐳 Docker
 A hands-on repository documenting my journey learning Docker — from container basics to building and orchestrating real-world applications.
 
 ![image](https://github.com/user-attachments/assets/59c65354-b544-4189-9325-d636f2e29db1)
 
 # Understanding Docker Concepts
 
-1. **Container:** A lightweight, standalone, and executable package that includes everything needed to run a piece of software.
+1. **Docker Desktop**
 
-2. **Image:** Think of this as a template or blueprint for containers. It contains all the instructions needed to create a container.
+2. **Docker Engine**  
+   ▪ Docker Client: CLI that sends commands to the daemon  
+   ▪ Docker Daemon: Core service that builds, runs, and manages containers  
 
-3. **Docker Hub:** Like GitHub but for Docker images — it's where you can find and share container images.
+3. **Docker Objects**  
+   ▪ Docker Images: Read-only templates used to create containers  
+   ▪ Docker Containers: Executable instances of images, isolated and portable  
 
-4. **Docker Engine:** The core technology that runs and manages containers on your machine.
-
+4. **Docker Registries**  
+   ▪ Docker Hub: Public image repository (like GitHub for containers)  
+   ▪ Private Registries: Internal image hosting solutions
 ---
 
 <img src="https://github.com/user-attachments/assets/175211f9-cfdd-42f6-8dde-cf283f1950db" width="100%"/>
@@ -130,3 +135,7 @@ Docker Hub is where Docker looks for images when you run a `docker run` command 
 - **Dockerfile**  
   Many images provide a link to their `Dockerfile`, which is the script used to build the image. Reviewing it can help you understand what’s inside the image and how it was created.
 ---
+
+
+# ☸️ Kubernetes
+
