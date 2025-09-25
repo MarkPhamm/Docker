@@ -129,6 +129,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env.local
+.env.*.local
 .venv
 env/
 venv/
@@ -172,3 +174,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.DS_Store
+.cursor
+
+# Airflow specific
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+logs/
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+airflow.env
